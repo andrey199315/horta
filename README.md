@@ -52,8 +52,6 @@ Terminal 2:
 python manage.py ler_arduino
 ```
 
-
-
 ## 📌 Notas
 
 - se ocorrer "Erro Access is denied" ou "Porta Ocupada", O Serial Monitor do Arduino IDE provavelmente está aberto. Feche-o antes de rodar o comando ler_arduino.
