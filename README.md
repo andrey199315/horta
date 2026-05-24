@@ -30,6 +30,14 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
+## ⚙️ 1. Configuração do Arduino
+
+1. Abra a [Arduino IDE](https://www.arduino.cc/en/software).
+2. Vá em **Ferramentas > Gerenciar Bibliotecas** e instale a biblioteca **LiquidCrystal** (by Arduino).
+3. Abra o arquivo `arduino/codigo_horta/codigo_horta.ino`.
+4. Conecte o Arduino via USB e faça o upload do código.
+5. **Importante:** Anote o nome da porta que o Arduino está usando (ex: `COM3` no Windows ou `/dev/ttyUSB0` no Linux/Mac) e feche o Serial Monitor da IDE.
+
 ## ⚙️ Configuração
 
 ### 1. Executar migrações do banco de dados
